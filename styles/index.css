@@ -1,0 +1,117 @@
+body {
+    background-color: lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 40px;
+}
+
+#bigger {
+    font-size: 36px;
+    font-weight: 800;
+    
+}
+
+section {
+    background-color: lightgray;
+    box-shadow: 0 0 10px 5px gray;
+    width: 910px;
+    text-align: center;
+}
+
+p{
+    color: lightgray;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.box-1{
+    display: inline-block;
+    width: 300px;
+    background-color: white;
+    margin: 0px;
+}
+
+.box-2 {
+    display: inline-block;
+    color: white;
+    width: 300px;
+    background-color: #2F4F4F;
+    margin: 0px;
+}
+
+.box-3 {
+    display: inline-block;
+    width: 300px;
+    background-color: white;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    margin: auto;
+    padding: 20px;
+}
+
+li:nth-child(2n + 4) {
+    background-color: rgba(47,59,64,0.35);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0px;
+}
+
+#green {
+    background-color: #5BB189;
+}
+
+#purple {
+    background-color: #4B0082;
+}
+
+#orange {
+    background-color: #EC632A;
+}
+
+.container {
+    color: white;
+    background-color: #2F4F4F;
+    width: 880px;
+    padding-left: 30px;
+    background-image: url(/images/checkmark.svg);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 20px 150px;
+}
+
+a {
+    text-decoration: underline;
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+button {
+    background-color: #3A6BA5;
+    width: 100%;
+    font-weight: 400;
+    color: white;
+    box-shadow: 0 0 3px 1px black;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
